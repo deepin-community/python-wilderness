@@ -1,5 +1,14 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-wilderness (0.1.6-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version.
+  * d/patches: remove 0001 and 0002, as these issues have been fixed upstream.
+  * d/tests: exclude flaky test from autopkgtest.
+  * d/control: Standards-Version update to 4.6.1. No changes.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Louis-Philippe Véronneau <pollo@debian.org>  Sun, 15 May 2022 14:30:05 -0400
+
+python-wilderness (0.1.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1010107)
+
+ -- Louis-Philippe Véronneau <pollo@debian.org>  Sun, 24 Apr 2022 14:55:43 -0400
